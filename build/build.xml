@@ -90,7 +90,15 @@
                         <echo msg="Existing 'var/build/pimcore-distribution.zip' found - using it." />
                     </then>
                     <else>
+                        <exec
+                                command="wget --quiet --output-document=var/build/pimcore-distribution.zip ${pimcore.downloadUrl}  "
+                                dir="."
+                                checkreturn="true"
+                                logoutput="true"
+                                />
+                        <!-- Does not work due to SSL errors?
                         <httpget url="${pimcore.downloadUrl}" dir="var/build" filename="pimcore-distribution.zip"/>
+                        -->
                     </else>
                 </if>
 
