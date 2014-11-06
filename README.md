@@ -1,5 +1,7 @@
-pimcore-setup
+pimcore-kitchen-sink-demo
 ==========================
+
+Sample pimcore project demoing some extensions.
 
 Overview / Build Process
 --------------------------

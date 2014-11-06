@@ -74,7 +74,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 
       # Name of the VM!
-      vb.customize ["modifyvm", :id, "--name", "pimcore"]
+      vb.customize ["modifyvm", :id, "--name", "pimcore-kitchen-sink-demo"]
 
   end
 

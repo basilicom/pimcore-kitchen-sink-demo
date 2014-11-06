@@ -1,6 +1,6 @@
 {
-    "name":"basilicom/pimcore-setup",
-    "description":"Automated pimcore setup using vagrant, ansible and phing",
+    "name":"basilicom/pimcore-kitchen-sink-demo",
+    "description":"Sample Pimcore Setup with extensions",
     "license": "proprietary",
     "config": {
         "document-root-path": "./htdocs"
